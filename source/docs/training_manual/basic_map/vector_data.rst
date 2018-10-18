@@ -90,7 +90,7 @@ Let's add some layer from a SpatiaLite database.
 #. In this tab you can see all the connections to existing databases or set up
    new connections.
 #. Click the :guilabel:`New` button.
-#. In the main folder of the Training Data, you should find the file
+#. In the shapefiles folder of the Training Data, you should find the file
    :file:`landuse.sqlite`. Select it and click :guilabel:`Open`.
 
    Notice that the drop-down above the three buttons now reads "landuse.sqlite@...",
