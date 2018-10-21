@@ -30,12 +30,12 @@ been activated.
   it is highlighted.
 * Click on the following toolbar button: |labeling|
 
-This gives you the :guilabel:`Layer labeling settings` dialog.
+This opens the :guilabel:`Labels` tab in the :guilabel:`Layer styling` dialog.
 
-* Check the box next to :guilabel:`Label this layer with...`.
+* Click on the dropdown menu list that currently should display :guilabel:`No labels` and choose :guilabel:`Single labels` instead.
 
 You'll need to choose which field in the attributes will be used for the
-labels. In the previous lesson, you decided that the :kbd:`NAME` field was the
+labels. After looking at the attribute table (see previous lesson), you could probably see that the :kbd:`NAME` field was the
 most suitable one for this purpose.
 
 * Select :guilabel:`name` from the list:
@@ -53,26 +53,30 @@ The map should now have labels like this:
 |basic| |FA| Changing Label Options
 -------------------------------------------------------------------------------
 
-Depending on the styles you chose for your map in earlier lessons, you'll
+Depending on the styles you chose for your map in earlier lessons, you
 might find that the labels are not appropriately formatted and either overlap or
 are too far away from their point markers.
 
-* Open the :guilabel:`Label tool` again by clicking on its button as before.
-* Make sure :guilabel:`Text` is selected in the left-hand options list, then
-  update the text formatting options to match those shown here:
+* Open the :guilabel:`Layer styling` dialog again by clicking on |labeling| as before.
+* When you hover over tabs in the tab column, you will notice that the name of the tab appears. In
+  the :guilabel:`Labels` tab, there is another tab row with :guilabel:`abc`,
+  :guilabel:`+ab <c` and so on. You can hover over these tabs, too, to make their names appear.
+* Make sure :guilabel:`Text` is selected in that tab row, then
+  update the text formatting options. If you can't find Helvetica in the fonts list,
+  select any other well readable font:
 
 
 .. image:: img/label_formatting_options.png
    :align: center
 
-That's the font problem solved! Now let's look at the problem of the labels
-overlapping the points, but before we do that, let's take a look at the
-:guilabel:`Buffer` option.
+That's the font problem solved! Now you might notice that the labels are hard to read
+in places where there are other objects on the map. We'll need a buffer around our
+labels. Let's take a look at the :guilabel:`Buffer` option.
 
-* Open the :guilabel:`Label tool` dialog.
-* Select :guilabel:`Buffer` from the left-hand options list.
-* Select the checkbox next to :guilabel:`Draw text buffer`, then choose options
-  to match those shown here:
+* Open the :guilabel:`Layer styling` dialog and go to the :guilabel:`Labels` tab in the tab column.
+* Select the :guilabel:`Buffer` tab (the glowing "abc" symbol) from the tab row.
+* Select the checkbox next to :guilabel:`Draw text buffer`, then choose the options
+  to your liking, for example:
 
 
 .. image:: img/buffer_options.png
@@ -90,7 +94,8 @@ them easier to pick out on the map:
 Now we can address the positioning of the labels in relation to their point
 markers.
 
-* In the :guilabel:`Label tool` dialog, go to the :guilabel:`Placement` tab.
+* Open the :guilabel:`Layer styling` dialog and go to the :guilabel:`Labels` tab in the tab column.
+* Go to the :guilabel:`Placement` tab in the tab row.
 * Change the value of :guilabel:`Distance` to :kbd:`2mm` and make sure that
   :guilabel:`Around point` is selected:
 
